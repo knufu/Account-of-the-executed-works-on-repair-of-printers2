@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Account_of_the_executed_works_on_repair_of_printers.Марки">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EBGABGAwUOCSgRAIFEDAADgCQCQQaAAAggEAIACJAQA=</HashCode>
+      <FileName>Марки.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Account_of_the_executed_works_on_repair_of_printers.Works">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EBGAAEQAEGCCgBAAEECAASgCQCAQYEQAAgAAJAAAAQA=</HashCode>
+      <FileName>Works.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Account_of_the_executed_works_on_repair_of_printers.Type">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EBGQAAAGEGCAgBAAEFCAACgCQAgQYEAAAgAAIAAAAQA=</HashCode>
+      <FileName>Type.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Account_of_the_executed_works_on_repair_of_printers.Printers">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EBOAAEAAAOGQgBAABECAAmACSBCAAAAAggAAIAAAAQA=</HashCode>
+      <FileName>Printers.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Account_of_the_executed_works_on_repair_of_printers.Form3">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>FBGAAEAQEOCQkBAIBECAASgSRCAQYACgk5EIJAAAAQA=</HashCode>
+      <FileName>Form3.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Account_of_the_executed_works_on_repair_of_printers.Form2">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EQCBAIIgEKAQAQAAFkDg0zkCBDhVcE4AgEQKBgBCAAI=</HashCode>
+      <FileName>Form2.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Account_of_the_executed_works_on_repair_of_printers.Form1">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EQRAAQgAAWAgIAABADDCIAAiYAREgAEAEEQgAAEEAGg=</HashCode>
+      <FileName>Form1.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

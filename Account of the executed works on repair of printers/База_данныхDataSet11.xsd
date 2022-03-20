@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="База_данныхDataSet1" targetNamespace="http://tempuri.org/База_данныхDataSet11.xsd" xmlns:mstns="http://tempuri.org/База_данныхDataSet11.xsd" xmlns="http://tempuri.org/База_данныхDataSet11.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="База_данныхConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="База_данныхConnectionString (MySettings)" PropertyReference="ApplicationSettings.Account_of_the_executed_works_on_repair_of_printers.My.MySettings.GlobalReference.Default.База_данныхConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="zap3TableAdapter" GeneratorDataComponentClassName="zap3TableAdapter" Name="zap3" UserDataComponentName="zap3TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="База_данныхConnectionString (MySettings)" DbObjectName="zap3" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Выполнен, [Count - Заказы] FROM zap3</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Выполнен" DataSetColumn="Выполнен" />
+              <Mapping SourceColumn="Count - Заказы" DataSetColumn="Count - Заказы" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="База_данныхDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="База_данныхDataSet1" msprop:Generator_UserDSName="База_данныхDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="zap3" msprop:Generator_TableClassName="zap3DataTable" msprop:Generator_TableVarName="tablezap3" msprop:Generator_TablePropName="zap3" msprop:Generator_RowDeletingName="zap3RowDeleting" msprop:Generator_RowChangingName="zap3RowChanging" msprop:Generator_RowEvHandlerName="zap3RowChangeEventHandler" msprop:Generator_RowDeletedName="zap3RowDeleted" msprop:Generator_UserTableName="zap3" msprop:Generator_RowChangedName="zap3RowChanged" msprop:Generator_RowEvArgName="zap3RowChangeEvent" msprop:Generator_RowClassName="zap3Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Выполнен" msprop:Generator_ColumnVarNameInTable="columnВыполнен" msprop:Generator_ColumnPropNameInRow="Выполнен" msprop:Generator_ColumnPropNameInTable="ВыполненColumn" msprop:Generator_UserColumnName="Выполнен" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Count_x0020_-_x0020_Заказы" msprop:Generator_ColumnVarNameInTable="_columnCount___Заказы" msprop:Generator_ColumnPropNameInRow="_Count___Заказы" msprop:Generator_ColumnPropNameInTable="_Count___ЗаказыColumn" msprop:Generator_UserColumnName="Count - Заказы" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
